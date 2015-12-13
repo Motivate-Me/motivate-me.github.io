@@ -1,3 +1,7 @@
+/**
+*This file contains the css elements for the blog-description
+**/
+
 /*
  * Globals
  */
@@ -310,10 +314,6 @@ h6, .h6 {
     float: right !important;
   }
 }
-
-
-
-
 
 /*
  * Blog name and description

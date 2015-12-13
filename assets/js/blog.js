@@ -1,3 +1,6 @@
+/**
+*This file contains the functions for the blog (through javascript)
+**/
 $(function() {
 
 	Parse.$ = jQuery;
