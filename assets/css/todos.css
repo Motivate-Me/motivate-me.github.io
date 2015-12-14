@@ -21,7 +21,7 @@ button {
 body {
     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     line-height: 1.4em;
-    background: #eeeeee url('../images/bg.png');
+    background: #d4f49c;
     color: #4d4d4d;
     width: 550px;
     margin: 0 auto;
@@ -31,6 +31,105 @@ body {
     -o-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
+/* Intro */
+
+    #intro .logo {
+        border-bottom: 0;
+        display: inline-block;
+        margin: 0 0 1em 0;
+        overflow: hidden;
+        position: relative;
+        width: 4em;
+    }
+
+        #intro .logo:before {
+            
+            background-position: top left;
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+
+        #intro .logo img {
+            
+            margin-left: -0.25em;
+            width: 4em;
+            height:6em;
+        }
+        #intro .logo-agenda img {
+            
+            margin-left: -0.25em;
+            width: 15em;
+            height:23em;
+        }
+        #intro .logo-yavishti img {
+            
+            margin-left: -0.25em;
+            width: 10em;
+            height: 12em;
+        }
+        #intro .compass img {
+            
+            margin-left: -0.25em;
+            width: 10em;
+            height: 10em;
+        }
+
+    #intro header h2 {
+        font-size: 1em;
+        font-weight: 900;
+    }
+
+    #intro header p {
+        font-weight: 900;
+        font-size: 1em;
+    }
+
+    @media screen and (max-width: 1280px) {
+
+        #intro {
+            margin: 0 0 2em 0;
+            text-align: center;
+        }
+
+            #intro header h2 {
+                font-size: 3em;
+            }
+
+            #intro header p {
+                font-size: 0.7em;
+            }
+
+    }
+
+    @media screen and (max-width: 736px) {
+
+        #intro {
+            margin: 1.5em 0;
+            padding: 1.25em 0;
+        }
+
+            #intro > :last-child {
+                margin-bottom: 0;
+            }
+
+            #intro .logo {
+                margin: 0 0 0.5em 0;
+            }
+
+            #intro header h2 {
+                font-size: 1.25em;
+            }
+
+            #intro header > :last-child {
+                margin-bottom: 0;
+            }
+
+    }
 
 #todoapp {
     background: #fff;
@@ -448,6 +547,8 @@ label[for='toggle-all'] {
 }
 
 #todoapp .content #user-info {
+    text-align: center;
+    font: italic bold 20px Georgia, serif;
     padding: 5px 10px;
     border-top: 1px solid #ededed;
     margin-bottom: 0px;
