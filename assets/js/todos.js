@@ -1,6 +1,5 @@
 /**
-A Parse.js Backbone To Do List application based on the todo app by
-[Jérôme Gravel-Niquet](http://jgn.me/). This uses Parse to persist
+A Parse.js Backbone To Do List application. This uses Parse to persist
 the todo items and provide user authentication and sessions.
 **/
 
