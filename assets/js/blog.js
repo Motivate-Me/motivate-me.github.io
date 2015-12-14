@@ -5,7 +5,7 @@ $(function() {
 
 	Parse.$ = jQuery;
 
-	// Replace this line with the one on your Quickstart Guide Page
+	//This contains the app key and javascript key
 	Parse.initialize("GPhAyxCUrY1rFMj8paPb0yMkE5jZSCCsz2F9d7W5", "hYidPSseqObFWn2mAUncMjJsetCgPebrz8PgnsPM");
 
 	var $container = $('.main-container'),
@@ -47,6 +47,7 @@ $(function() {
 				});
 			}
 		}),
+		//create comment object function
 		Comment = Parse.Object.extend('Comment', {
 			add: function(data) {
 				this.set({
