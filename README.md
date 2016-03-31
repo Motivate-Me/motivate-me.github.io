@@ -1,4 +1,5 @@
 # motivate-me.github.io
+#The beta version of the app is currently in the making - this is the first draft.
 Home to the Motivate Me app!
 Motivate Me is a lifestyle app that enables users to grow holistically. 
 
